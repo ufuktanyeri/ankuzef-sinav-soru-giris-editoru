@@ -1,0 +1,21 @@
+# Antigravity Project Rules - Ankuzef Soru Aktarım Botu
+project_context:
+  target_url: "https://ankuzefsinav.ankara.edu.tr"
+  auth_requirement: "KDS Authentication is mandatory. Agent must verify session before analysis."
+  goal: "Soru ve Konu aktarımı için evrensel şablon ve otomasyon planı oluşturma"
+
+workflows:
+  deep_analysis:
+    - action: "Check if session is active; if not, prompt user for KDS Login"
+    - action: "Use 'Browser' tool to scan active session"
+    - action: "Use 'Sequential Thinking' MCP to document DOM elements"
+    - modules: ["Soru Ekle", "Konu Ekle", "Sınav Listesi"]
+    
+  output_requirements:
+    - artifact: "Module_Map (ID'ler, Selector'lar, Input tipleri)"
+    - artifact: "Universal_Template_Schema (Excel/JSON yapısı)"
+    - artifact: "Extension_Architecture_Plan"
+
+mcp_servers:
+  - "sequential-thinking"
+  - "browser"

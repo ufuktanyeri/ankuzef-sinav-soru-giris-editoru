@@ -1,0 +1,362 @@
+[
+  {
+    "konu": "Önerme Mantığı ve Doğruluk Tabloları",
+    "soru_grubu": "final",
+    "soru_koku": "p → q koşullu önermesinin yanlış olduğu tek durum aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "p doğru, q doğru",
+      "B": "p yanlış, q doğru",
+      "C": "p yanlış, q yanlış",
+      "D": "p doğru, q yanlış",
+      "E": "p yanlış, q doğru veya yanlış"
+    },
+    "dogru_cevap": "D",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 2,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 1 - Önerme Mantığı ve Doğruluk Tabloları Ders Notu"
+    }
+  },
+  {
+    "konu": "Karmaşık Sayılar: Tanım ve Kartezyen Formda İşlemler",
+    "soru_grubu": "final",
+    "soru_koku": "z1 = 6 − i ve z2 = 2 + 3i ise z1 − z2 işleminin sonucu aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "8 + 2i",
+      "B": "4 − 4i",
+      "C": "4 + 4i",
+      "D": "8 − 4i",
+      "E": "4 + 2i"
+    },
+    "dogru_cevap": "B",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 3,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 2 - Karmaşık Sayılar: Tanım ve Kartezyen Formda İşlemler Ders Notu"
+    }
+  },
+  {
+    "konu": "Temel Trigonometri ve Karmaşık Sayıların Kutupsal Gösterimi",
+    "soru_grubu": "final",
+    "soru_koku": "cos(0°) + sin(90°) ifadesinin değeri aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "0",
+      "B": "1/2",
+      "C": "1",
+      "D": "2",
+      "E": "sqrt(2)"
+    },
+    "dogru_cevap": "D",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 2,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 3 - Temel Trigonometri ve Karmaşık Sayıların Kutupsal Gösterimi Ders Notu"
+    }
+  },
+  {
+    "konu": "Fonksiyon Kavramı, Limit ve Süreklilik, Grafik Yorumlama",
+    "soru_grubu": "final",
+    "soru_koku": "f(x) = x^2 fonksiyonunun tanım kümesi tüm reel sayılar iken, değer kümesi aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Sıfır ve pozitif reel sayılar [0, +∞)",
+      "B": "Tüm reel sayılar",
+      "C": "Yalnızca pozitif reel sayılar",
+      "D": "Yalnızca negatif reel sayılar",
+      "E": "Yalnızca tam sayılar"
+    },
+    "dogru_cevap": "A",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 3,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 4 - Fonksiyon Kavramı, Limit ve Süreklilik, Grafik Yorumlama Ders Notu"
+    }
+  },
+  {
+    "konu": "Üstel Fonksiyonlar ve Özellikleri",
+    "soru_grubu": "final",
+    "soru_koku": "(3^5) / (3^2) ifadesinin sonucu aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "3^10 = 59049",
+      "B": "3^3 = 27",
+      "C": "3^7 = 2187",
+      "D": "3^3 = 9",
+      "E": "3^2 = 9"
+    },
+    "dogru_cevap": "B",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 3,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 5 - Üstel Fonksiyonlar ve Özellikleri Ders Notu"
+    }
+  },
+  {
+    "konu": "Logaritma Fonksiyonu ve Özellikleri",
+    "soru_grubu": "final",
+    "soru_koku": "log₁₀(1000) ifadesinin değeri kaçtır?",
+    "secenekler": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "10",
+      "E": "100"
+    },
+    "dogru_cevap": "B",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 3,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 6 - Logaritma Fonksiyonu ve Özellikleri Ders Notu"
+    }
+  },
+  {
+    "konu": "Türev Kavramı ve Temel Türev Kuralları",
+    "soru_grubu": "final",
+    "soru_koku": "f(x) = 3x^4 − 2x^2 + 5 fonksiyonunun türevi f'(x) aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "12x^3 − 4x",
+      "B": "12x^3 − 2x",
+      "C": "3x^3 − 2x + 5",
+      "D": "12x^4 − 4x^2",
+      "E": "12x^3 − 4x + 5"
+    },
+    "dogru_cevap": "A",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 3,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 7 - Türev Kavramı ve Temel Türev Kuralları Ders Notu"
+    }
+  },
+  {
+    "konu": "Türev Kavramı ve Temel Türev Kuralları",
+    "soru_grubu": "final",
+    "soru_koku": "f(x) = e^(2x) fonksiyonunun türevi f'(x) aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "e^(2x)",
+      "B": "2xe^(2x)",
+      "C": "e^(2x) / 2",
+      "D": "2e^(2x)",
+      "E": "2e^x"
+    },
+    "dogru_cevap": "D",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 4,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 7 - Türev Kavramı ve Temel Türev Kuralları Ders Notu"
+    }
+  },
+  {
+    "konu": "Türev Uygulamaları: Maksimum–Minimum Problemleri",
+    "soru_grubu": "final",
+    "soru_koku": "f(x) = x^2 − 6x + 8 fonksiyonunun minimum değerini aldığı x değeri kaçtır?",
+    "secenekler": {
+      "A": "2",
+      "B": "4",
+      "C": "−3",
+      "D": "6",
+      "E": "3"
+    },
+    "dogru_cevap": "E",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 3,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 8 - Türev Uygulamaları: Maksimum–Minimum Problemleri Ders Notu"
+    }
+  },
+  {
+    "konu": "Türev Uygulamaları: Maksimum–Minimum Problemleri",
+    "soru_grubu": "final",
+    "soru_koku": "f(x) = −x^2 + 4x − 1 fonksiyonunun maksimum değeri kaçtır?",
+    "secenekler": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "dogru_cevap": "C",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 4,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 8 - Türev Uygulamaları: Maksimum–Minimum Problemleri Ders Notu"
+    }
+  },
+  {
+    "konu": "Matrisler ve Determinant: Tanım, İşlemler, 2×2 ve 3×3 Determinant",
+    "soru_grubu": "final",
+    "soru_koku": "A = [[1, 2], [3, 4]] matrisi için det(A) (determinant) değeri kaçtır?",
+    "secenekler": {
+      "A": "10",
+      "B": "−2",
+      "C": "2",
+      "D": "−10",
+      "E": "0"
+    },
+    "dogru_cevap": "B",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 3,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 9 - Matrisler ve Determinant: Tanım, İşlemler, 2×2 ve 3×3 Determinant Ders Notu"
+    }
+  },
+  {
+    "konu": "Matrisler ve Determinant: Tanım, İşlemler, 2×2 ve 3×3 Determinant",
+    "soru_grubu": "final",
+    "soru_koku": "A = [[2, 1], [0, 3]] matrisinin transpozesi A^T aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "[[2, 0], [1, 3]]",
+      "B": "[[3, 1], [0, 2]]",
+      "C": "[[2, 0], [3, 1]]",
+      "D": "[[0, 2], [3, 1]]",
+      "E": "[[1, 2], [3, 0]]"
+    },
+    "dogru_cevap": "A",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 3,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 9 - Matrisler ve Determinant: Tanım, İşlemler, 2×2 ve 3×3 Determinant Ders Notu"
+    }
+  },
+  {
+    "konu": "İntegral Kavramı ve Temel İntegral Kuralları",
+    "soru_grubu": "final",
+    "soru_koku": "∫ (3x^2 + 2x) dx belirsiz integralinin sonucu aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "x^3 + x^2 + C",
+      "B": "6x + 2 + C",
+      "C": "x^3 + 2x + C",
+      "D": "3x^3 + x^2 + C",
+      "E": "x^3 + x^2"
+    },
+    "dogru_cevap": "A",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 3,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 10 - İntegral Kavramı ve Temel İntegral Kuralları Ders Notu"
+    }
+  },
+  {
+    "konu": "İntegral Kavramı ve Temel İntegral Kuralları",
+    "soru_grubu": "final",
+    "soru_koku": "∫ (e^x + 2) dx belirsiz integralinin sonucu aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "e^x + 2x",
+      "B": "e^x + 2x + C",
+      "C": "xe^x + 2x + C",
+      "D": "e^x + C",
+      "E": "e^(x+1) + 2x + C"
+    },
+    "dogru_cevap": "B",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 3,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 10 - İntegral Kavramı ve Temel İntegral Kuralları Ders Notu"
+    }
+  },
+  {
+    "konu": "Belirli İntegral",
+    "soru_grubu": "final",
+    "soru_koku": "∫₀² (2x) dx belirli integralinin değeri kaçtır?",
+    "secenekler": {
+      "A": "2",
+      "B": "8",
+      "C": "4",
+      "D": "6",
+      "E": "0"
+    },
+    "dogru_cevap": "C",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 3,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 11 - Belirli İntegral Ders Notu"
+    }
+  },
+  {
+    "konu": "Belirli İntegral",
+    "soru_grubu": "final",
+    "soru_koku": "∫₀³ (x²) dx belirli integralinin değeri kaçtır?",
+    "secenekler": {
+      "A": "27",
+      "B": "3",
+      "C": "6",
+      "D": "9",
+      "E": "12"
+    },
+    "dogru_cevap": "D",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 4,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 11 - Belirli İntegral Ders Notu"
+    }
+  },
+  {
+    "konu": "Belirli İntegralin Alan Hesaplamalarında Kullanımı",
+    "soru_grubu": "final",
+    "soru_koku": "f(x) = x² ile x ekseni arasında 0 ≤ x ≤ 3 aralığındaki alanı belirli integral ile hesaplayınız.",
+    "secenekler": {
+      "A": "3",
+      "B": "27",
+      "C": "6",
+      "D": "9",
+      "E": "18"
+    },
+    "dogru_cevap": "D",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 3,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 12 - Belirli İntegralin Alan Hesaplamalarında Kullanımı Ders Notu"
+    }
+  },
+  {
+    "konu": "Belirli İntegralin Alan Hesaplamalarında Kullanımı",
+    "soru_grubu": "final",
+    "soru_koku": "f(x) = 2x ile x ekseni arasında 1 ≤ x ≤ 4 aralığındaki alan kaçtır?",
+    "secenekler": {
+      "A": "12",
+      "B": "6",
+      "C": "15",
+      "D": "18",
+      "E": "9"
+    },
+    "dogru_cevap": "C",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 3,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 12 - Belirli İntegralin Alan Hesaplamalarında Kullanımı Ders Notu"
+    }
+  },
+  {
+    "konu": "Lineer Denklem Sistemleri ve Çözüm Yöntemleri",
+    "soru_grubu": "final",
+    "soru_koku": "x + y = 4 ve 2x − y = 2 denklem sisteminin çözümü (x, y) aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "(1, 3)",
+      "B": "(3, 1)",
+      "C": "(2, 2)",
+      "D": "(0, 4)",
+      "E": "(4, 0)"
+    },
+    "dogru_cevap": "C",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 2,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 13 - Lineer Denklem Sistemleri ve Çözüm Yöntemleri Ders Notu"
+    }
+  },
+  {
+    "konu": "Lineer Denklem Sistemleri ve Çözüm Yöntemleri",
+    "soru_grubu": "final",
+    "soru_koku": "Cramer kuralı ile denklem sistemi çözülebilmesi için katsayılar matrisinin determinantı hangi koşulu sağlamalıdır?",
+    "secenekler": {
+      "A": "det(A) = 1",
+      "B": "det(A) > 0",
+      "C": "det(A) = 0",
+      "D": "det(A) ≠ 0",
+      "E": "det(A) < 0"
+    },
+    "dogru_cevap": "D",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 2,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 13 - Lineer Denklem Sistemleri ve Çözüm Yöntemleri Ders Notu"
+    }
+  }
+]

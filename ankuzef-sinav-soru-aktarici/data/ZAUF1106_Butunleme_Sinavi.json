@@ -1,0 +1,362 @@
+[
+  {
+    "konu": "Önerme Mantığı ve Doğruluk Tabloları",
+    "soru_grubu": "butunleme",
+    "soru_koku": "p = Y (yanlış), q = D (doğru) iken p → q ifadesinin doğruluk değeri nedir?",
+    "secenekler": {
+      "A": "Yanlış",
+      "B": "Belirsiz",
+      "C": "Tanımsız",
+      "D": "Doğru",
+      "E": "Hem doğru hem yanlış olur"
+    },
+    "dogru_cevap": "D",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 2,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 1 - Önerme Mantığı ve Doğruluk Tabloları Ders Notu"
+    }
+  },
+  {
+    "konu": "Karmaşık Sayılar: Tanım ve Kartezyen Formda İşlemler",
+    "soru_grubu": "butunleme",
+    "soru_koku": "z = 6 + 8i karmaşık sayısının modülü |z| kaçtır?",
+    "secenekler": {
+      "A": "14",
+      "B": "sqrt(14)",
+      "C": "10",
+      "D": "48",
+      "E": "7"
+    },
+    "dogru_cevap": "C",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 2,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 2 - Karmaşık Sayılar: Tanım ve Kartezyen Formda İşlemler Ders Notu"
+    }
+  },
+  {
+    "konu": "Temel Trigonometri ve Karmaşık Sayıların Kutupsal Gösterimi",
+    "soru_grubu": "butunleme",
+    "soru_koku": "z = sqrt(3) + i karmaşık sayısının kutupsal formda açısı (θ) kaç derecedir?",
+    "secenekler": {
+      "A": "60°",
+      "B": "45°",
+      "C": "30°",
+      "D": "90°",
+      "E": "120°"
+    },
+    "dogru_cevap": "C",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 3,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 3 - Temel Trigonometri ve Karmaşık Sayıların Kutupsal Gösterimi Ders Notu"
+    }
+  },
+  {
+    "konu": "Fonksiyon Kavramı, Limit ve Süreklilik, Grafik Yorumlama",
+    "soru_grubu": "butunleme",
+    "soru_koku": "lim (x → 2) [(x^2 − 4) / (x − 2)] limitinin değeri kaçtır?",
+    "secenekler": {
+      "A": "0",
+      "B": "2",
+      "C": "Tanımsız",
+      "D": "4",
+      "E": "8"
+    },
+    "dogru_cevap": "D",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 3,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 4 - Fonksiyon Kavramı, Limit ve Süreklilik, Grafik Yorumlama Ders Notu"
+    }
+  },
+  {
+    "konu": "Üstel Fonksiyonlar ve Özellikleri",
+    "soru_grubu": "butunleme",
+    "soru_koku": "f(x) = (1/2)^x fonksiyonu ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "secenekler": {
+      "A": "x arttıkça fonksiyon değeri de artar",
+      "B": "Fonksiyonun grafiği orijinden geçer",
+      "C": "x = 0 için f(0) = 0 olur",
+      "D": "Fonksiyon her zaman negatif değer alır",
+      "E": "x arttıkça fonksiyon değeri azalır ve her zaman pozitiftir"
+    },
+    "dogru_cevap": "E",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 3,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 5 - Üstel Fonksiyonlar ve Özellikleri Ders Notu"
+    }
+  },
+  {
+    "konu": "Logaritma Fonksiyonu ve Özellikleri",
+    "soru_grubu": "butunleme",
+    "soru_koku": "ln(1) ifadesinin değeri kaçtır? (ln doğal logaritmadır)",
+    "secenekler": {
+      "A": "1",
+      "B": "e",
+      "C": "−1",
+      "D": "Tanımsız",
+      "E": "0"
+    },
+    "dogru_cevap": "E",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 3,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 6 - Logaritma Fonksiyonu ve Özellikleri Ders Notu"
+    }
+  },
+  {
+    "konu": "Türev Kavramı ve Temel Türev Kuralları",
+    "soru_grubu": "butunleme",
+    "soru_koku": "f(x) = 5x^3 − x + 7 fonksiyonunun türevi f'(x) aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "15x^2 − 1",
+      "B": "15x^2 − x",
+      "C": "5x^2 − 1 + 7",
+      "D": "15x^3 − 1",
+      "E": "10x^2 − 1"
+    },
+    "dogru_cevap": "A",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 3,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 7 - Türev Kavramı ve Temel Türev Kuralları Ders Notu"
+    }
+  },
+  {
+    "konu": "Türev Kavramı ve Temel Türev Kuralları",
+    "soru_grubu": "butunleme",
+    "soru_koku": "f(x) = ln(3x) fonksiyonunun türevi f'(x) aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "3/x",
+      "B": "1/(3x)",
+      "C": "1/x",
+      "D": "3 · ln(x)",
+      "E": "ln(3)/x"
+    },
+    "dogru_cevap": "C",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 4,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 7 - Türev Kavramı ve Temel Türev Kuralları Ders Notu"
+    }
+  },
+  {
+    "konu": "Türev Uygulamaları: Maksimum–Minimum Problemleri",
+    "soru_grubu": "butunleme",
+    "soru_koku": "f(x) = x^2 − 8x + 12 fonksiyonunun minimum değerini aldığı x değeri kaçtır?",
+    "secenekler": {
+      "A": "2",
+      "B": "6",
+      "C": "8",
+      "D": "4",
+      "E": "−4"
+    },
+    "dogru_cevap": "D",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 3,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 8 - Türev Uygulamaları: Maksimum–Minimum Problemleri Ders Notu"
+    }
+  },
+  {
+    "konu": "Türev Uygulamaları: Maksimum–Minimum Problemleri",
+    "soru_grubu": "butunleme",
+    "soru_koku": "f(x) = −2x^2 + 12x − 10 fonksiyonunun maksimum değeri kaçtır?",
+    "secenekler": {
+      "A": "10",
+      "B": "8",
+      "C": "12",
+      "D": "6",
+      "E": "3"
+    },
+    "dogru_cevap": "B",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 3,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 8 - Türev Uygulamaları: Maksimum–Minimum Problemleri Ders Notu"
+    }
+  },
+  {
+    "konu": "Matrisler ve Determinant: Tanım, İşlemler, 2×2 ve 3×3 Determinant",
+    "soru_grubu": "butunleme",
+    "soru_koku": "A = [[3, 1], [2, 5]] matrisi için det(A) (determinant) değeri kaçtır?",
+    "secenekler": {
+      "A": "17",
+      "B": "13",
+      "C": "−13",
+      "D": "7",
+      "E": "11"
+    },
+    "dogru_cevap": "B",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 3,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 9 - Matrisler ve Determinant: Tanım, İşlemler, 2×2 ve 3×3 Determinant Ders Notu"
+    }
+  },
+  {
+    "konu": "Matrisler ve Determinant: Tanım, İşlemler, 2×2 ve 3×3 Determinant",
+    "soru_grubu": "butunleme",
+    "soru_koku": "A = [[1, 3], [0, 2]] matrisinin 2 · A (skaler çarpım) sonucu aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "[[2, 6], [0, 4]]",
+      "B": "[[2, 3], [0, 4]]",
+      "C": "[[1, 6], [0, 2]]",
+      "D": "[[3, 5], [2, 4]]",
+      "E": "[[2, 6], [2, 4]]"
+    },
+    "dogru_cevap": "A",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 3,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 9 - Matrisler ve Determinant: Tanım, İşlemler, 2×2 ve 3×3 Determinant Ders Notu"
+    }
+  },
+  {
+    "konu": "İntegral Kavramı ve Temel İntegral Kuralları",
+    "soru_grubu": "butunleme",
+    "soru_koku": "∫ (4x^3 − 6x) dx belirsiz integralinin sonucu aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "12x^2 − 6 + C",
+      "B": "x^4 + 3x^2 + C",
+      "C": "x^4 − 3x^2 + C",
+      "D": "4x^4 − 6x^2 + C",
+      "E": "x^4 − 3x^2"
+    },
+    "dogru_cevap": "C",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 3,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 10 - İntegral Kavramı ve Temel İntegral Kuralları Ders Notu"
+    }
+  },
+  {
+    "konu": "İntegral Kavramı ve Temel İntegral Kuralları",
+    "soru_grubu": "butunleme",
+    "soru_koku": "∫ (x² + 3) dx belirsiz integralinin sonucu aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "x³ + 3x",
+      "B": "2x + C",
+      "C": "x³/3 + 3x + C",
+      "D": "x³ + 3 + C",
+      "E": "x²/2 + 3x + C"
+    },
+    "dogru_cevap": "C",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 3,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 10 - İntegral Kavramı ve Temel İntegral Kuralları Ders Notu"
+    }
+  },
+  {
+    "konu": "Belirli İntegral",
+    "soru_grubu": "butunleme",
+    "soru_koku": "∫₁³ (x^2) dx belirli integralinin değeri kaçtır?",
+    "secenekler": {
+      "A": "9",
+      "B": "8",
+      "C": "26/3",
+      "D": "6",
+      "E": "10"
+    },
+    "dogru_cevap": "C",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 4,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 11 - Belirli İntegral Ders Notu"
+    }
+  },
+  {
+    "konu": "Belirli İntegral",
+    "soru_grubu": "butunleme",
+    "soru_koku": "∫₀¹ (3x²) dx belirli integralinin değeri kaçtır?",
+    "secenekler": {
+      "A": "3",
+      "B": "0",
+      "C": "1/3",
+      "D": "1",
+      "E": "6"
+    },
+    "dogru_cevap": "D",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 2,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 11 - Belirli İntegral Ders Notu"
+    }
+  },
+  {
+    "konu": "Belirli İntegralin Alan Hesaplamalarında Kullanımı",
+    "soru_grubu": "butunleme",
+    "soru_koku": "f(x) = 3 ile x ekseni arasında 2 ≤ x ≤ 5 aralığındaki alan ∫₂⁵ 3 dx değeri kaçtır?",
+    "secenekler": {
+      "A": "3",
+      "B": "5",
+      "C": "6",
+      "D": "9",
+      "E": "15"
+    },
+    "dogru_cevap": "D",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 2,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 12 - Belirli İntegralin Alan Hesaplamalarında Kullanımı Ders Notu"
+    }
+  },
+  {
+    "konu": "Belirli İntegralin Alan Hesaplamalarında Kullanımı",
+    "soru_grubu": "butunleme",
+    "soru_koku": "f(x) = x + 1 ile x ekseni arasında 0 ≤ x ≤ 2 aralığındaki alan belirli integral ile hesaplandığında sonuç kaçtır?",
+    "secenekler": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5",
+      "E": "6"
+    },
+    "dogru_cevap": "C",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 3,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 12 - Belirli İntegralin Alan Hesaplamalarında Kullanımı Ders Notu"
+    }
+  },
+  {
+    "konu": "Lineer Denklem Sistemleri ve Çözüm Yöntemleri",
+    "soru_grubu": "butunleme",
+    "soru_koku": "x + y = 6 ve 2x + y = 9 denklem sisteminin çözümü (x, y) aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "(2, 4)",
+      "B": "(4, 2)",
+      "C": "(3, 3)",
+      "D": "(1, 5)",
+      "E": "(5, 1)"
+    },
+    "dogru_cevap": "C",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 2,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 13 - Lineer Denklem Sistemleri ve Çözüm Yöntemleri Ders Notu"
+    }
+  },
+  {
+    "konu": "Lineer Denklem Sistemleri ve Çözüm Yöntemleri",
+    "soru_grubu": "butunleme",
+    "soru_koku": "2x + 3y = 12 ve x + y = 5 denklem sisteminde Gauss eliminasyon yöntemiyle çözüldüğünde x değeri kaçtır?",
+    "secenekler": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "dogru_cevap": "C",
+    "ek_ayarlar": {
+      "zorluk_seviyesi": 3,
+      "secenekler_karistirilmasin": false,
+      "kaynak": "Hafta 13 - Lineer Denklem Sistemleri ve Çözüm Yöntemleri Ders Notu"
+    }
+  }
+]

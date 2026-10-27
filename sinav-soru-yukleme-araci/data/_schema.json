@@ -1,0 +1,18 @@
+{
+  "konu": "",
+  "soru_grubu": "",
+  "soru_koku": "",
+  "secenekler": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": "",
+    "E": ""
+  },
+  "dogru_cevap": "",
+  "ek_ayarlar": {
+    "zorluk_seviyesi": 3,
+    "secenekler_karistirilmasin": false,
+    "kaynak": ""
+  }
+}
