@@ -1,41 +1,44 @@
 # AGENTS.md
 
-This file provides guidance to Codex (claude.ai/code) when working with code in this repository.
+Bu dosya, Codex ve diğer ajan araçlarına bu depoda çalışırken rehberlik eder. Ayrıntılı ve güncel tek kaynak **`CLAUDE.md`**'dir; bu dosya onun kısa özetidir. İkisi çeliştiğinde `CLAUDE.md` geçerlidir.
 
-## Project status
+## Amaç
 
-Early planning stage: there is no source code, build system, test suite, or git repository yet. The repo currently contains only project rules (`.antigravity/ankuzef.rules`) and sample question data (`data/`). There are no build/lint/test commands to run.
+`data/*.json` soru havuzlarını ANKUZEF soru bankasına (`https://ankuzefsinav.ankara.edu.tr`) **taslak (`StatusId 1`)** olarak aktaran Chrome MV3 eklentisi (WXT + TypeScript + zod + Vitest). Kullanıcı KDS ile kendisi giriş yapar; kimlik bilgisi hiçbir koşulda işlenmez.
 
-## Goal
+## Mevcut durum (2026-10-30)
 
-Automate transferring exam questions and topics ("Soru ve Konu aktarımı") into the Ankara Üniversitesi ANKUZEF exam system at `https://ankuzefsinav.ankara.edu.tr`. Per `.antigravity/ankuzef.rules`, the planned deliverables are:
+- **Çalıştırılabilir kod yok.** `package.json`, `src/`, `tests/` henüz oluşturulmadı. Build/lint/test komutları bu nedenle henüz çalışmaz.
+- Git deposu var (`main`); Faz 0 ilk commit yapıldı, Faz 1 dosya taşımaları staged.
+- Uygulama sırası ve tüm tip/fonksiyon imzaları **`implementation_plan.md`**'de (onaylı, 34 adım). Kod yazmadan önce ilgili fazı oku, imzalardan sapma.
+- `ankuzef-sinav-soru-aktarici/` ve `sinav-soru-yukleme-araci/` salt okunur arşivdir (D10): kod buradan okunmaz, derlemeye alınmaz, Faz 7'de `legacy/` altına taşınır, silinmez.
 
-- **Module_Map** – DOM IDs, selectors, and input types for the site's "Soru Ekle", "Konu Ekle", and "Sınav Listesi" modules.
-- **Universal_Template_Schema** – an Excel/JSON input format for questions.
-- **Extension_Architecture_Plan** – the planned delivery vehicle is a browser extension.
+## Planlı komutlar (Faz 2'de `package.json` ile gelecek)
 
-The site requires **KDS authentication**. Any browser-based analysis must first verify there is an active logged-in session and, if not, ask the user to log in via KDS themselves — never attempt to handle credentials.
-
-## Question data format (`data/*.json`)
-
-Each file is a JSON array of question objects (one file per exam, e.g. `ZAUF1106_Final_Sinavi.json`, `ZAUF1106_Butunleme_Sinavi.json`; 20 questions each). All entries share this shape:
-
-```json
-{
-  "konu": "Topic name (maps to a 'Konu' in the target system)",
-  "soru_grubu": "final | butunleme",
-  "soru_koku": "Question stem",
-  "secenekler": { "A": "...", "B": "...", "C": "...", "D": "...", "E": "..." },
-  "dogru_cevap": "A-E",
-  "ek_ayarlar": {
-    "zorluk_seviyesi": 2,
-    "secenekler_karistirilmasin": false,
-    "kaynak": "Hafta N - <konu> Ders Notu"
-  }
-}
+```bash
+npm install          # postinstall: wxt prepare
+npm run build        # wxt build → dist/
+npm run compile      # tsc --noEmit
+npm run test         # vitest run
+npm run check        # compile + test
+npx vitest run tests/core/validate.test.ts   # tek test
 ```
 
-Notes:
-- Files are UTF-8 with Turkish characters and math symbols (`→`, `−`, `∞`); math is plain text (e.g. `sqrt(2)`, `x^2`), not LaTeX. Preserve encoding when reading/writing.
-- `soru_grubu` is consistent within a file and matches the filename's exam type.
-- The file prefix (`ZAUF1106`) is the course code.
+## Değiştirilemez kurallar
+
+- Yalnız `StatusId 1` gönderilir; `SubmitForApproval` / `StatusId 2` hiçbir kod yolunda yer almaz (D5).
+- İlk çalıştırmada zorunlu 1 soruluk deneme kapısı; doğrulanmadan tam aktarım açılmaz (D1/C).
+- Eksik konular yalnız kullanıcı onayıyla oluşturulur (D3). `zorluk_seviyesi` ≡ `ScoreId` (D2).
+- `examStage` çalışma zamanında `Term/GetExamStages`'ten alınır; `ExamType/List` = Program Türü, sınav türü **değil** (D6).
+- `secenekler_karistirilmasin` deprecated, `MixId` her zaman `0` (D7). `soru_gorseli` v1'de aktarılmaz (D8). Girdi yalnız JSON (D4).
+- DOM/CKEditor form otomasyonu yazılmaz; aktarım content script üzerinden API ile yapılır.
+- Testler gerçek API'ye istek atmaz; ağ katmanı sahte `Transport` ile soyutlanır.
+
+## Veri biçimi
+
+`data/README.md`'ye bak. Eski çıplak dizi ve yeni envelope (`{surum, ders_kodu, exam_type, sorular}`) biçimleri desteklenir. Dosyalar UTF-8 (BOM'suz), LF; Türkçe karakterler ve matematik sembolleri korunur, matematik düz metindir. `ek_ayarlar.kaynak` deseni `Hafta N - <Konu> Ders Notu`.
+
+## Çalışma kuralları
+
+- `.claude/rules/ecc/` kuralları geçerlidir. Commit mesajları Türkçe, `<type>(<kapsam>): <açıklama>`.
+- Dokümanlar ve veri Türkçe; kod tanımlayıcıları İngilizce, girdi alan adları Türkçe.
