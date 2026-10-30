@@ -1,0 +1,11 @@
+{
+  "extends": "./.wxt/tsconfig.json",
+  "compilerOptions": {
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": false,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src", "tests", "wxt.config.ts", "vitest.config.ts"],
+  "exclude": ["legacy", "dist", ".output", ".wxt", "node_modules"]
+}
