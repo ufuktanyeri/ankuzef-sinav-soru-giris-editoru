@@ -1,6 +1,6 @@
 # Kaynak Raporu — ANKUZEF Soru Aktarıcı
 
-Durum: **Taslak — kullanıcı onayı bekleniyor.**
+Durum: **Onaylandı (2026-10-27).** Aşağıdaki seçimler `implementation_plan.md` `[Dependencies]` bölümünde sabitlendi.
 Sürüm/lisans bilgileri `npm view` ile 2026-10-26 tarihinde doğrulandı. Ortam: Node v24.22.1, npm 11.13.0.
 
 ## 1. Eklenti çatısı

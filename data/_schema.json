@@ -1,0 +1,30 @@
+{
+  "surum": 1,
+  "ders_kodu": "ZAUF1106",
+  "ders_adi": "",
+  "exam_type": "FINAL",
+  "donem": "",
+  "sorular": [
+    {
+      "konu": "",
+      "soru_grubu": "final",
+      "soru_koku": "",
+      "soru_gorseli": null,
+      "secenekler": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": "",
+        "E": ""
+      },
+      "dogru_cevap": "A",
+      "ek_ayarlar": {
+        "zorluk_seviyesi": 3,
+        "kaynak": "Hafta 1 -  Ders Notu",
+        "bloom_basamagi": "Kavrama",
+        "soru_turu": "tanim",
+        "tahmini_sure_sn": 90
+      }
+    }
+  ]
+}

@@ -7,3 +7,4 @@ dist/
 .env.*
 stats.html
 stats-*.json
+.claude/ecc/
