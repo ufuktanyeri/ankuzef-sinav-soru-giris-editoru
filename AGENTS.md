@@ -11,7 +11,7 @@ Bu dosya, Codex ve diğer ajan araçlarına bu depoda çalışırken rehberlik e
 - **Çalıştırılabilir kod yok.** `package.json`, `src/`, `tests/` henüz oluşturulmadı. Build/lint/test komutları bu nedenle henüz çalışmaz.
 - Git deposu var (`main`); Faz 0 ilk commit yapıldı, Faz 1 dosya taşımaları staged.
 - Uygulama sırası ve tüm tip/fonksiyon imzaları **`implementation_plan.md`**'de (onaylı, 34 adım). Kod yazmadan önce ilgili fazı oku, imzalardan sapma.
-- `ankuzef-sinav-soru-aktarici/` ve `sinav-soru-yukleme-araci/` salt okunur arşivdir (D10): kod buradan okunmaz, derlemeye alınmaz, Faz 7'de `legacy/` altına taşınır, silinmez.
+- `arsiv/` altındaki `ankuzef-sinav-soru-aktarici/` ve `sinav-soru-yukleme-araci/` salt okunur arşivdir (D10): kod buradan okunmaz, derlemeye alınmaz.
 
 ## Planlı komutlar (Faz 2'de `package.json` ile gelecek)
 

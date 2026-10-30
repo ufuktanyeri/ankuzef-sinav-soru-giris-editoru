@@ -10,11 +10,14 @@ workflows:
     - action: "Use 'Browser' tool to scan active session"
     - action: "Use 'Sequential Thinking' MCP to document DOM elements"
     - modules: ["Soru Ekle", "Konu Ekle", "Sınav Listesi"]
-    
+
   output_requirements:
     - artifact: "Module_Map (ID'ler, Selector'lar, Input tipleri)"
+      path: "docs/module-map.md"
     - artifact: "Universal_Template_Schema (Excel/JSON yapısı)"
+      path: "data/_schema.json"
     - artifact: "Extension_Architecture_Plan"
+      path: "docs/extension-architecture-plan.md"
 
 mcp_servers:
   - "sequential-thinking"

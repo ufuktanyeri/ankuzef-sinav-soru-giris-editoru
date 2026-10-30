@@ -7,5 +7,5 @@
     "forceConsistentCasingInFileNames": true
   },
   "include": ["src", "tests", "wxt.config.ts", "vitest.config.ts"],
-  "exclude": ["legacy", "dist", ".output", ".wxt", "node_modules"]
+  "exclude": ["arsiv", "dist", ".output", ".wxt", "node_modules"]
 }

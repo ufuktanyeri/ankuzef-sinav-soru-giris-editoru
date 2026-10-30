@@ -10,8 +10,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 - **Henüz çalıştırılabilir kod yok.** Depo yalnızca dokümanlar, veri ve `implementation_plan.md` içerir. `package.json`, `tsconfig.json`, `wxt.config.ts`, `src/`, `tests/` henüz oluşturulmadı.
 - Tek kaynak: **`implementation_plan.md`** (onaylı, 34 adımlı). Faz 0 (git init + ilk commit) tamamlandı; Faz 1 dosya taşımaları staged. Kod yazmadan önce ilgili fazı ve `[Types]`/`[Functions]` bölümlerini oku; oradaki tip ve fonksiyon imzalarından sapma.
-- `ankuzef-sinav-soru-aktarici/` ve `sinav-soru-yukleme-araci/` eski proje taslaklarıdır (D10): **salt okunur arşiv**, kod buradan okunmaz, derlemeye ve test taramasına alınmaz. Faz 7'de `legacy/` altına taşınacak, silinmeyecek. `src/app.js` ve `src/rules-checker.js` 0 bayttır.
-- `.antigravity/ankuzef.rules` şu an `ankuzef-sinav-soru-aktarici/.antigravity/` altındadır; köke taşınması planlanmıştır.
+- `arsiv/` altındaki `ankuzef-sinav-soru-aktarici/` ve `sinav-soru-yukleme-araci/` eski proje taslaklarıdır (D10): **salt okunur arşiv**, kod buradan okunmaz, derlemeye ve test taramasına alınmaz (`tsconfig.json` exclude). İçerik köke taşındı; arşivde kalan dosyaların çoğu 0–1 baytlık kalıntıdır.
+- `.antigravity/ankuzef.rules` kök dizindedir (Antigravity ajan kuralları; çıktı yolları plandaki dosyalara işaret eder).
 
 ## Komutlar (plandaki `package.json`, Faz 2'de oluşturulacak)
 
